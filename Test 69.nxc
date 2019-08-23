@@ -1,0 +1,11 @@
+#define DRIVING_ANGLE 5000
+#define POWER 75
+#define NEAR 30 // cm
+#define TURN_ANGLE 5 //cm
+
+task main() {
+     SetSensorLowspeed(IN_1);
+     Precedes(drive, check_sensor)
+     
+
+     
